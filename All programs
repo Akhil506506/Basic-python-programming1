@@ -1,0 +1,124 @@
+#1 to print name
+'''n=input("enter the number")
+print("name:",n)'''
+#2print two numbers
+'''num1=input("enter the first number")
+num2=input("enter the second number")
+print("first number:",num1)
+print("second number",num2)'''
+#3Add two numbers
+'''num1=int(input("enter the first numbere"))
+num2=int(input("enter the second number"))
+add=num1+num2
+print("addition of two numbers:",add)'''
+#4concatenate first name and last name
+'''a=input("enter the first name")
+b=input("enter the second name")
+c=a+b
+print("full name:",c)'''
+#5swapping without third variable
+'''a=10
+b=20
+a=a+b
+b=a-b
+a=a-b
+print("a:",a)
+print("b:",b)'''
+#6swap two numbers using third variable
+'''a=10
+b=20
+temp=a
+a=b
+b=temp
+print("a:",a)
+print("b:",b)'''
+#7write a program to print primitive datatypes
+'''a=10
+b=1.5
+c=True
+print("integer:",a)
+print("float:",b)
+print("bool:",c)'''
+#8to print non primitive datatypes
+'''my_list=[10,20,30,"bye"]
+my_tuple=(10,20,30)
+my_set={1,2,3}
+my_dict={"name":"Akhil","age":20}
+print(my_list)
+print(my_tuple)
+print(my_set)
+print(my_dict)'''
+#9square of a number
+'''num=5
+square=num**2
+print(square)'''
+#10avg of three numbers 
+'''a=int(input())
+b=int(input())
+c=int(input())
+avg=(a+b+c)/3
+print(avg)'''
+#11 a number multiply by 10
+'''a=int(input("enter the number"))
+result=a*10
+print(result)'''
+#12 covert minutes to seconds
+'''a=int(input("enter the no of minutes"))
+b=a*60
+print(b)'''
+#13 multiply floating point
+'''a=float(input("enter the number"))
+b=float(input("enter the number"))
+c=a*b
+print(c)'''
+#14 to find largest of three numbers
+'''a=15
+b=78
+c=23
+z=max(a,b,c)
+print(z)'''
+#15all arithmatic operations
+'''a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)'''
+#16 to print a number is +ve -ve or 0
+'''a=int(input())
+if a>0:
+  print("positive")
+elif a<0:
+  print("negative")
+elif a==0:
+  print("zero")
+else:
+  print("error")'''
+#17even or odd number
+'''a=int(input())
+if a%2==0:
+  print("even number")
+else:
+  print("odd number")'''
+#18 check if number is divisible by 5 and 11
+'''a=int(input())
+if (a%5==0 and a%11==0):
+  print("number is divisible")
+else:
+  print("not divisible")'''
+#19 A person can access an atm only if 1)they insert their atm card 2)they enter the correct pin 3)the account is not locked. write code using logical operators
+'''atm_card_inserted=True
+entered_the_correct_pin=True
+account_is_not_locked=True
+if (atm_card_inserted and entered_the_correct_pin and account_is_not_locked):
+  print("person can access the atm")
+else:
+  print("person cannot access the atm")'''
+#20 student pass or fail
+'''a=int(input("enter the theory marks"))
+b=int(input("enter the practical marks"))
+c=int(input("enter the total marks"))
+if (a>=35 and b>=15 or c>=60):
+  print("pass")
+else:
+  print("fail")'''
